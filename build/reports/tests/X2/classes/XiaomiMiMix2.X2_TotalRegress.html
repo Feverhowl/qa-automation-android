@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class XiaomiMiMix2.X2_TotalRegress</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class XiaomiMiMix2.X2_TotalRegress</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/XiaomiMiMix2.html">XiaomiMiMix2</a> &gt; X2_TotalRegress</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">9</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">3</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">27m16.00s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">66%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard output</a>
+</li>
+<li>
+<a href="#tab3">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="Test006"></a>
+<h3 class="failures">Test006</h3>
+<span class="code">
+<pre>org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy. Proxy error: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8001 (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.02 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'SV-IT-5', ip: '192.168.2.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.savetime, app=C:\Automation\apks\client-12-apr.apk, deviceScreenSize=1080x2160, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=e4986fbc, platform=LINUX, deviceUDID=e4986fbc, appActivity=com.savetime.MainActivity, desired={appPackage=com.savetime, appActivity=com.savetime.MainActivity, app=C:\Automation\apks\client-12-apr.apk, platformVersion=8.0.0, automationName=Appium, autoGrantPermissions=true, platformName=Android, deviceName=e4986fbc}, platformVersion=8.0.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, autoGrantPermissions=true, javascriptEnabled=true, deviceModel=Mi MIX 2, platformName=Android, deviceManufacturer=Xiaomi}]
+Session ID: 69d17084-3a61-4c0e-8a91-83644582da29
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:235)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:977)
+	at main.Test006.test006(Test006.java:111)
+	at XiaomiMiMix2.X2_TotalRegress.Test006(X2_TotalRegress.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:748)
+</pre>
+</span>
+<span class="code">
+<pre>org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy. Proxy error: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8001 (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.01 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'SV-IT-5', ip: '192.168.2.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.savetime, app=C:\Automation\apks\client-12-apr.apk, deviceScreenSize=1080x2160, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=e4986fbc, platform=LINUX, deviceUDID=e4986fbc, appActivity=com.savetime.MainActivity, desired={appPackage=com.savetime, appActivity=com.savetime.MainActivity, app=C:\Automation\apks\client-12-apr.apk, platformVersion=8.0.0, automationName=Appium, autoGrantPermissions=true, platformName=Android, deviceName=e4986fbc}, platformVersion=8.0.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, autoGrantPermissions=true, javascriptEnabled=true, deviceModel=Mi MIX 2, platformName=Android, deviceManufacturer=Xiaomi}]
+Session ID: 69d17084-3a61-4c0e-8a91-83644582da29
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:235)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:335)
+	at main.Main.saveAllureScreenshot(Main.java:1125)
+	at XiaomiMiMix2.X2_TotalRegress.tearDown(X2_TotalRegress.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:33)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:748)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="Test007"></a>
+<h3 class="failures">Test007</h3>
+<span class="code">
+<pre>org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: content shell=)
+  (Driver info: chromedriver=2.20.366854 (5ec7646c06c3266f27ae291db023e006190cc1cc),platform=Windows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 74 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'SV-IT-5', ip: '192.168.2.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.savetime, app=C:\Automation\apks\client-12-apr.apk, deviceScreenSize=1080x2160, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=e4986fbc, platform=LINUX, deviceUDID=e4986fbc, appActivity=com.savetime.MainActivity, desired={appPackage=com.savetime, appActivity=com.savetime.MainActivity, app=C:\Automation\apks\client-12-apr.apk, platformVersion=8.0.0, automationName=Appium, autoGrantPermissions=true, platformName=Android, deviceName=e4986fbc}, platformVersion=8.0.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, autoGrantPermissions=true, javascriptEnabled=true, deviceModel=Mi MIX 2, platformName=Android, deviceManufacturer=Xiaomi}]
+Session ID: f0c477b5-9370-41ea-996c-9a0c7f5805eb
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:33)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at main.Main.wfeClick(Main.java:106)
+	at main.Main.clickDeliveryAddressField_aroundBody46(Main.java:690)
+	at main.Main$AjcClosure47.run(Main.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+	at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:51)
+	at main.Main.clickDeliveryAddressField(Main.java:690)
+	at main.Test007.test007(Test007.java:48)
+	at XiaomiMiMix2.X2_TotalRegress.Test007(X2_TotalRegress.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:748)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="Test008"></a>
+<h3 class="failures">Test008</h3>
+<span class="code">
+<pre>org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression ((//div[@class='item-title-row'])[3]/../div/div[2] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '((//div[@class='item-title-row'])[3]/../div/div[2]' is not a valid XPath expression.
+  (Session info: content shell=)
+  (Driver info: chromedriver=2.20.366854 (5ec7646c06c3266f27ae291db023e006190cc1cc),platform=Windows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 107 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'SV-IT-5', ip: '192.168.2.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.savetime, app=C:\Automation\apks\client-12-apr.apk, deviceScreenSize=1080x2160, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=e4986fbc, platform=LINUX, deviceUDID=e4986fbc, appActivity=com.savetime.MainActivity, desired={appPackage=com.savetime, appActivity=com.savetime.MainActivity, app=C:\Automation\apks\client-12-apr.apk, platformVersion=8.0.0, automationName=Appium, autoGrantPermissions=true, platformName=Android, deviceName=e4986fbc}, platformVersion=8.0.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, autoGrantPermissions=true, javascriptEnabled=true, deviceModel=Mi MIX 2, platformName=Android, deviceManufacturer=Xiaomi}]
+Session ID: 0bf157eb-393d-4a9e-952b-81ffde4ad794
+*** Element info: {Using=xpath, value=((//div[@class='item-title-row'])[3]/../div/div[2]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:56)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:134)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at main.Main.assertCancelLastOrder_aroundBody24(Main.java:523)
+	at main.Main$AjcClosure25.run(Main.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+	at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:51)
+	at main.Main.assertCancelLastOrder(Main.java:523)
+	at main.Test008.test008(Test008.java:137)
+	at XiaomiMiMix2.X2_TotalRegress.Test008(X2_TotalRegress.java:68)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:748)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">Test001</td>
+<td class="success">47.653s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Test002</td>
+<td class="success">4m6.40s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Test003</td>
+<td class="success">4m26.50s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Test004</td>
+<td class="success">4m38.01s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Test005</td>
+<td class="success">3m30.95s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="failures">Test006</td>
+<td class="failures">2m16.04s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Test007</td>
+<td class="failures">1m23.88s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Test008</td>
+<td class="failures">2m51.11s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="success">Test009</td>
+<td class="success">3m15.46s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>Текущий контекст: WEBVIEW_com.savetime
+????????????????????????????????????????????????????????????????????????????????????
+? Информация о клиенте: Анна
+???????????????????????????????????????????????????????????????????????????
+? ID клиента: 77880
+? Имя клиента: Анна
+? Телефон клиента: 79859657097
+? Реферальный код клиента: ANNA2460
+? Статус клиента: basic
+? Сейвкоины клиента: 78.64
+????????????????????????????????????????????????????????????????????????????????????
+Текущий контекст: WEBVIEW_com.savetime
+Текущий контекст: NATIVE_APP
+Текущий контекст: WEBVIEW_com.savetime
+Текущий контекст: WEBVIEW_com.savetime
+Текущий контекст: NATIVE_APP
+Текущий контекст: WEBVIEW_com.savetime
+Количество сейвкоинов клиента соответствует значению в БД
+166990
+Текущий контекст: WEBVIEW_com.savetime
+????????????????????????????????????????????????????????????????????????????????????
+? Информация о клиенте: Людмила
+???????????????????????????????????????????????????????????????????????????
+? ID клиента: 103350
+? Имя клиента: Людмила
+? Телефон клиента: 79267998996
+? Реферальный код клиента: LYUDMILA-499
+? Статус клиента: basic
+? Сейвкоины клиента: 10.25
+????????????????????????????????????????????????????????????????????????????????????
+Текущий контекст: WEBVIEW_com.savetime
+Текущий контекст: NATIVE_APP
+Текущий контекст: WEBVIEW_com.savetime
+Текущий контекст: WEBVIEW_com.savetime
+Текущий контекст: NATIVE_APP
+Текущий контекст: WEBVIEW_com.savetime
+Активных заказов нет!
+Текущий контекст: NATIVE_APP
+Текущий контекст: WEBVIEW_com.savetime
+Текущий контекст: NATIVE_APP
+Текущий контекст: WEBVIEW_com.savetime
+????????????????????????????????????????????????????????????????????????????????????
+? Информация о заказе № 107994
+???????????????????????????????????????????????????????????????????????????
+? ID заказа: 107994
+? Статус заказа: hold
+? Сумма корзины: 261.5
+? Сумма доставки: 199.0
+? Сумма итого: 0.0
+? Сумма потраченных сейвкоинов: 0.0
+? Дата создания заказа: 2019-04-12 13:54:26.0
+? Дата завершения доставки: null
+? Адрес магазина: ул. Большая Дорогомиловская 8
+? Адрес клиента: пл. Гагарина
+? Подъезд клиента: 1
+? Этаж клиента: 2
+? Квартира клиента: 3
+? Домофон клиента: 123
+? Комментарий клиента: Yo, yo yo, 148-3 to the 3 to the 6 to the 9, representing the ABQ, what up biatch?!
+????????????????????????????????????????????????????????????????????????????????????
+Изменено строк в базе: 1. Статус заказа №107994 изменён на: packing
+Изменено строк в базе: 1. Статус заказа №107994 изменён на: compiled
+Изменено строк в базе: 1. Статус заказа №107994 изменён на: ship
+Изменено строк в базе: 1. Статус заказа №107994 изменён на: done
+130785
+Текущий контекст: WEBVIEW_com.savetime
+????????????????????????????????????????????????????????????????????????????????????
+? Информация о клиенте: Александр
+???????????????????????????????????????????????????????????????????????????
+? ID клиента: 14662
+? Имя клиента: Александр
+? Телефон клиента: 79263386446
+? Реферальный код клиента: ALEKSAND084
+? Статус клиента: basic
+? Сейвкоины клиента: 25.37
+????????????????????????????????????????????????????????????????????????????????????
+Текущий контекст: WEBVIEW_com.savetime
+Текущий контекст: NATIVE_APP
+Текущий контекст: WEBVIEW_com.savetime
+Текущий контекст: WEBVIEW_com.savetime
+Текущий контекст: NATIVE_APP
+Текущий контекст: WEBVIEW_com.savetime
+Активных заказов нет!
+Тестовая карта уже привязана: 5100 •••• •••• 0008
+Изменено строк в базе: 1
+Изменено строк в базе: 1
+Test2095
+Текущий контекст: NATIVE_APP
+Текущий контекст: WEBVIEW_com.savetime
+Текущий контекст: NATIVE_APP
+Текущий контекст: WEBVIEW_com.savetime
+Текущий контекст: NATIVE_APP
+Текущий контекст: WEBVIEW_com.savetime
+Текущий контекст: NATIVE_APP
+Текущий контекст: WEBVIEW_com.savetime
+Текущий контекст: NATIVE_APP
+Текущий контекст: WEBVIEW_com.savetime
+Текущий контекст: NATIVE_APP
+Текущий контекст: WEBVIEW_com.savetime
+????????????????????????????????????????????????????????????????????????????????????
+? Информация о заказе № 107997
+???????????????????????????????????????????????????????????????????????????
+? ID заказа: 107997
+? Статус заказа: hold
+? Сумма корзины: 766.2
+? Сумма доставки: 199.0
+? Сумма итого: 0.0
+? Сумма потраченных сейвкоинов: 0.0
+? Дата создания заказа: 2019-04-12 13:59:03.0
+? Дата завершения доставки: null
+? Адрес магазина: Москва, ул.Алтуфьевское шоссе, д. 8
+? Адрес клиента: Ленская ул., 36
+? Подъезд клиента: 3
+? Этаж клиента: 1
+? Квартира клиента: 2
+? Домофон клиента: 312
+? Комментарий клиента: 
+????????????????????????????????????????????????????????????????????????????????????
+Изменено строк в базе: 1. Статус заказа №107997 изменён на: packing
+Изменено строк в базе: 1. Статус заказа №107997 изменён на: compiled
+Изменено строк в базе: 1. Статус заказа №107997 изменён на: ship
+Изменено строк в базе: 1. Статус заказа №107997 изменён на: done
+134034
+Текущий контекст: WEBVIEW_com.savetime
+????????????????????????????????????????????????????????????????????????????????????
+? Информация о клиенте: Виктория
+???????????????????????????????????????????????????????????????????????????
+? ID клиента: 27565
+? Имя клиента: Виктория
+? Телефон клиента: 79647056772
+? Реферальный код клиента: VIKTORIY094
+? Статус клиента: basic
+? Сейвкоины клиента: 88.94
+????????????????????????????????????????????????????????????????????????????????????
+Текущий контекст: WEBVIEW_com.savetime
+Текущий контекст: NATIVE_APP
+Текущий контекст: WEBVIEW_com.savetime
+Текущий контекст: WEBVIEW_com.savetime
+Текущий контекст: NATIVE_APP
+Текущий контекст: WEBVIEW_com.savetime
+Активных заказов нет!
+Тестовая карта уже привязана: 5100 •••• •••• 0008
+Изменено строк в базе: 1
+Изменено строк в базе: 1
+Test1557
+Текущий контекст: NATIVE_APP
+Текущий контекст: WEBVIEW_com.savetime
+Текущий контекст: NATIVE_APP
+Текущий контекст: WEBVIEW_com.savetime
+Текущий контекст: NATIVE_APP
+Текущий контекст: WEBVIEW_com.savetime
+Текущий контекст: NATIVE_APP
+Текущий контекст: WEBVIEW_com.savetime
+Текущий контекст: NATIVE_APP
+Текущий контекст: WEBVIEW_com.savetime
+Текущий контекст: NATIVE_APP
+Текущий контекст: WEBVIEW_com.savetime
+????????????????????????????????????????????????????????????????????????????????????
+? Информация о заказе № 108000
+???????????????????????????????????????????????????????????????????????????
+? ID заказа: 108000
+? Статус заказа: hold
+? Сумма корзины: 511.0
+? Сумма доставки: 199.0
+? Сумма итого: 0.0
+? Сумма потраченных сейвкоинов: 0.0
+? Дата создания заказа: 2019-04-12 14:03:30.0
+? Дата завершения доставки: null
+? Адрес магазина: ул. Каховка д. 19, к. 1
+? Адрес клиента: Новочеремушкинская ул., 59к1
+? Подъезд клиента: 3
+? Этаж клиента: 1
+? Квартира клиента: 2
+? Домофон клиента: 312
+? Комментарий клиента: 
+????????????????????????????????????????????????????????????????????????????????????
+Изменено строк в базе: 1. Статус заказа №108000 изменён на: packing
+Изменено строк в базе: 1. Статус заказа №108000 изменён на: compiled
+Изменено строк в базе: 1. Статус заказа №108000 изменён на: ship
+Изменено строк в базе: 1. Статус заказа №108000 изменён на: done
+135371
+Текущий контекст: WEBVIEW_com.savetime
+????????????????????????????????????????????????????????????????????????????????????
+? Информация о клиенте: Елена
+???????????????????????????????????????????????????????????????????????????
+? ID клиента: 80121
+? Имя клиента: Елена
+? Телефон клиента: 79257853220
+? Реферальный код клиента: ELENA2518
+? Статус клиента: basic
+? Сейвкоины клиента: 46.21
+????????????????????????????????????????????????????????????????????????????????????
+Текущий контекст: WEBVIEW_com.savetime
+Текущий контекст: NATIVE_APP
+Текущий контекст: WEBVIEW_com.savetime
+Текущий контекст: WEBVIEW_com.savetime
+Текущий контекст: NATIVE_APP
+Текущий контекст: WEBVIEW_com.savetime
+Активных заказов нет!
+Текущий контекст: NATIVE_APP
+Текущий контекст: WEBVIEW_com.savetime
+Тестовая карта уже привязана: 5100 •••• •••• 0008
+Текущий контекст: NATIVE_APP
+Текущий контекст: WEBVIEW_com.savetime
+Текущий контекст: NATIVE_APP
+Текущий контекст: WEBVIEW_com.savetime
+????????????????????????????????????????????????????????????????????????????????????
+? Информация о заказе № 108002
+???????????????????????????????????????????????????????????????????????????
+? ID заказа: 108002
+? Статус заказа: hold
+? Сумма корзины: 431.8
+? Сумма доставки: 199.0
+? Сумма итого: 0.0
+? Сумма потраченных сейвкоинов: 10.0
+? Дата создания заказа: 2019-04-12 14:06:47.0
+? Дата завершения доставки: null
+? Адрес магазина: Москва, Можайское шоссе 31, корп.1
+? Адрес клиента: Рублёвское ш., 22
+? Подъезд клиента: 6
+? Этаж клиента: 7
+? Квартира клиента: 8
+? Домофон клиента: 876
+? Комментарий клиента: 
+????????????????????????????????????????????????????????????????????????????????????
+Изменено строк в базе: 1. Статус заказа №108002 изменён на: packing
+Изменено строк в базе: 1. Статус заказа №108002 изменён на: compiled
+Изменено строк в базе: 1. Статус заказа №108002 изменён на: ship
+Изменено строк в базе: 1. Статус заказа №108002 изменён на: done
+167739
+Текущий контекст: WEBVIEW_com.savetime
+????????????????????????????????????????????????????????????????????????????????????
+? Информация о клиенте: Денис
+???????????????????????????????????????????????????????????????????????????
+? ID клиента: 97191
+? Имя клиента: Денис
+? Телефон клиента: 79154994909
+? Реферальный код клиента: DENIS-472
+? Статус клиента: basic
+? Сейвкоины клиента: 2.75
+????????????????????????????????????????????????????????????????????????????????????
+Текущий контекст: WEBVIEW_com.savetime
+Текущий контекст: NATIVE_APP
+Текущий контекст: WEBVIEW_com.savetime
+Текущий контекст: WEBVIEW_com.savetime
+Текущий контекст: NATIVE_APP
+Текущий контекст: WEBVIEW_com.savetime
+Активных заказов нет!
+165279
+Тестовая карта уже привязана: 5100 •••• •••• 0008
+Текущий контекст: NATIVE_APP
+Текущий контекст: WEBVIEW_com.savetime
+????????????????????????????????????????????????????????????????????????????????????
+? Информация о заказе № 108006
+???????????????????????????????????????????????????????????????????????????
+? ID заказа: 108006
+? Статус заказа: hold
+? Сумма корзины: 912.0
+? Сумма доставки: 199.0
+? Сумма итого: 0.0
+? Сумма потраченных сейвкоинов: 0.0
+? Дата создания заказа: 2019-04-12 14:10:22.0
+? Дата завершения доставки: null
+? Адрес магазина: улица Свободы, 34
+? Адрес клиента: Вилиса Лациса ул., 42
+? Подъезд клиента: 1
+? Этаж клиента: 2
+? Квартира клиента: 3
+? Домофон клиента: 123
+? Комментарий клиента: Yo, yo yo, 148-3 to the 3 to the 6 to the 9, representing the ABQ, what up biatch?!
+????????????????????????????????????????????????????????????????????????????????????
+Изменено строк в базе: 1. Статус заказа №108006 изменён на: packing
+Текущий контекст: WEBVIEW_com.savetime
+????????????????????????????????????????????????????????????????????????????????????
+? Информация о клиенте: Евгения
+???????????????????????????????????????????????????????????????????????????
+? ID клиента: 11135
+? Имя клиента: Евгения
+? Телефон клиента: 79252267807
+? Реферальный код клиента: EVGENIYA164
+? Статус клиента: basic
+? Сейвкоины клиента: 74.4
+????????????????????????????????????????????????????????????????????????????????????
+Текущий контекст: WEBVIEW_com.savetime
+Текущий контекст: NATIVE_APP
+Текущий контекст: WEBVIEW_com.savetime
+Текущий контекст: WEBVIEW_com.savetime
+Текущий контекст: NATIVE_APP
+Текущий контекст: WEBVIEW_com.savetime
+Активных заказов нет!
+76062
+Текущий контекст: WEBVIEW_com.savetime
+????????????????????????????????????????????????????????????????????????????????????
+? Информация о клиенте: Борис
+???????????????????????????????????????????????????????????????????????????
+? ID клиента: 63260
+? Имя клиента: Борис
+? Телефон клиента: 79778277303
+? Реферальный код клиента: BORIS068
+? Статус клиента: basic
+? Сейвкоины клиента: 151.54
+????????????????????????????????????????????????????????????????????????????????????
+Текущий контекст: WEBVIEW_com.savetime
+Текущий контекст: NATIVE_APP
+Текущий контекст: WEBVIEW_com.savetime
+Текущий контекст: WEBVIEW_com.savetime
+Текущий контекст: NATIVE_APP
+Текущий контекст: WEBVIEW_com.savetime
+Активных заказов нет!
+Тестовая карта уже привязана: 5100 •••• •••• 0008
+Текущий контекст: NATIVE_APP
+Текущий контекст: WEBVIEW_com.savetime
+????????????????????????????????????????????????????????????????????????????????????
+? Информация о заказе № 108009
+???????????????????????????????????????????????????????????????????????????
+? ID заказа: 108009
+? Статус заказа: hold
+? Сумма корзины: 1374.8
+? Сумма доставки: 199.0
+? Сумма итого: 0.0
+? Сумма потраченных сейвкоинов: 0.0
+? Дата создания заказа: 2019-04-12 14:13:48.0
+? Дата завершения доставки: null
+? Адрес магазина: Москва, Можайское шоссе 31, корп.1
+? Адрес клиента: ул. Веерная, 32к2
+? Подъезд клиента: 1
+? Этаж клиента: 2
+? Квартира клиента: 3
+? Домофон клиента: 123
+? Комментарий клиента: Yo, yo yo, 148-3 to the 3 to the 6 to the 9, representing the ABQ, what up biatch?!
+????????????????????????????????????????????????????????????????????????????????????
+Изменено строк в базе: 1. Статус заказа №108009 изменён на: packing
+Изменено строк в базе: 1. Статус заказа №108009 изменён на: compiled
+Текущий контекст: NATIVE_APP
+Текущий контекст: WEBVIEW_com.savetime
+118726
+Текущий контекст: WEBVIEW_com.savetime
+????????????????????????????????????????????????????????????????????????????????????
+? Информация о клиенте: Ирина
+???????????????????????????????????????????????????????????????????????????
+? ID клиента: 19095
+? Имя клиента: Ирина
+? Телефон клиента: 79169878878
+? Реферальный код клиента: IRINA550
+? Статус клиента: basic
+? Сейвкоины клиента: 551.67
+????????????????????????????????????????????????????????????????????????????????????
+Текущий контекст: WEBVIEW_com.savetime
+Текущий контекст: NATIVE_APP
+Текущий контекст: WEBVIEW_com.savetime
+Текущий контекст: WEBVIEW_com.savetime
+Текущий контекст: NATIVE_APP
+Текущий контекст: WEBVIEW_com.savetime
+Активных заказов нет!
+Тестовая карта уже привязана: 5100 •••• •••• 0008
+Текущий контекст: NATIVE_APP
+Текущий контекст: WEBVIEW_com.savetime
+????????????????????????????????????????????????????????????????????????????????????
+? Информация о заказе № 108011
+???????????????????????????????????????????????????????????????????????????
+? ID заказа: 108011
+? Статус заказа: hold
+? Сумма корзины: 414.5
+? Сумма доставки: 199.0
+? Сумма итого: 0.0
+? Сумма потраченных сейвкоинов: 0.0
+? Дата создания заказа: 2019-04-12 14:16:46.0
+? Дата завершения доставки: null
+? Адрес магазина: Москва, Щелковское ш., 2А
+? Адрес клиента: Красноярская ул., 5/36
+? Подъезд клиента: 1
+? Этаж клиента: 2
+? Квартира клиента: 3
+? Домофон клиента: 123
+? Комментарий клиента: Yo, yo yo, 148-3 to the 3 to the 6 to the 9, representing the ABQ, what up biatch?!
+????????????????????????????????????????????????????????????????????????????????????
+Изменено строк в базе: 1. Статус заказа №108011 изменён на: packing
+Изменено строк в базе: 1. Статус заказа №108011 изменён на: compiled
+Изменено строк в базе: 1. Статус заказа №108011 изменён на: ship
+Изменено строк в базе: 1. Статус заказа №108011 изменён на: done
+Текущий контекст: NATIVE_APP
+Текущий контекст: WEBVIEW_com.savetime
+Текущий контекст: NATIVE_APP
+Текущий контекст: WEBVIEW_com.savetime
+Текущий контекст: NATIVE_APP
+677297
+</pre>
+</span>
+</div>
+<div id="tab3" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.3</a> at 12.04.2019 17:18:36</p>
+</div>
+</div>
+</body>
+</html>

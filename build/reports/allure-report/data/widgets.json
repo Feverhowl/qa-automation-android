@@ -1,0 +1,109 @@
+{
+  "summary" : {
+    "reportName" : "Allure Report",
+    "testRuns" : [ ],
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 10,
+      "skipped" : 0,
+      "passed" : 14,
+      "unknown" : 0,
+      "total" : 27
+    },
+    "time" : {
+      "start" : 1555072662355,
+      "stop" : 1555074678848,
+      "duration" : 2016493,
+      "minDuration" : 47279,
+      "maxDuration" : 305353,
+      "sumDuration" : 5063905
+    }
+  },
+  "environment" : [ {
+    "values" : [ "Android" ],
+    "name" : "Platform"
+  } ],
+  "suites" : {
+    "total" : 3,
+    "items" : [ {
+      "uid" : "18bcc63e58e7aab0283b0d83cf02d735",
+      "name" : "XiaomiRedmi4a.X_TotalRegress",
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 9
+      }
+    }, {
+      "uid" : "abf676e10e9b2313f2f366b6ae42b362",
+      "name" : "XiaomiMiMix2.X2_TotalRegress",
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 9
+      }
+    }, {
+      "uid" : "85747901167a838b335e6455ed9f8c4d",
+      "name" : "SamsungGalaxyJ1miniPrime.S_TotalRegress",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 7,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 9
+      }
+    } ]
+  },
+  "history-trend" : [ {
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 10,
+      "skipped" : 0,
+      "passed" : 14,
+      "unknown" : 0,
+      "total" : 27
+    }
+  } ],
+  "behaviors" : {
+    "total" : 27,
+    "items" : [ ]
+  },
+  "executors" : [ {
+    "name" : "Gradle",
+    "type" : "gradle",
+    "buildName" : "root project 'Autotests'"
+  } ],
+  "categories" : {
+    "total" : 2,
+    "items" : [ {
+      "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d",
+      "name" : "Product defects",
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      }
+    }, {
+      "uid" : "bdbf199525818fae7a8651db9eafe741",
+      "name" : "Test defects",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 10,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 10
+      }
+    } ]
+  },
+  "launches" : [ ]
+}

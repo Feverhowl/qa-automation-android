@@ -1,0 +1,750 @@
+{
+  "uid" : "3524a43e1ca2136f",
+  "name" : "Тест №009 - Проверка функционала 'Оценка заказа' и перенаправления в Google Play Market",
+  "fullName" : "XiaomiMiMix2.X2_TotalRegress.Test009",
+  "historyId" : "45b78faaf645a0179aada869ff01bc9e",
+  "time" : {
+    "start" : 1555074484441,
+    "stop" : 1555074678848,
+    "duration" : 194407
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Выбираем случайного клиента с привязанной тестовой картой 5100 0000 0000 0008",
+      "time" : {
+        "start" : 1555074503321,
+        "stop" : 1555074509305,
+        "duration" : 5984
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Ждем пока прогрузится приложение",
+      "time" : {
+        "start" : 1555074509305,
+        "stop" : 1555074520069,
+        "duration" : 10764
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "deviceName",
+        "value" : "e4986fbc"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Кликаем на кнопку \"ПРИСТУПИТЬ К ПОКУПКАМ\"",
+      "time" : {
+        "start" : 1555074520069,
+        "stop" : 1555074521522,
+        "duration" : 1453
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Кликаем по Бургер-меню",
+      "time" : {
+        "start" : 1555074521522,
+        "stop" : 1555074522804,
+        "duration" : 1282
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Вводим номер телефона",
+      "time" : {
+        "start" : 1555074522804,
+        "stop" : 1555074528521,
+        "duration" : 5717
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "deviceName",
+        "value" : "e4986fbc"
+      }, {
+        "name" : "client",
+        "value" : "main.Client@6cdde9ef"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Жмем кнопку \"ПРОДОЛЖИТЬ\"",
+      "time" : {
+        "start" : 1555074528521,
+        "stop" : 1555074529796,
+        "duration" : 1275
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Вводим код из смс",
+      "time" : {
+        "start" : 1555074529796,
+        "stop" : 1555074535061,
+        "duration" : 5265
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Если у пользователя есть активные заказы - переводим их в DONE",
+      "time" : {
+        "start" : 1555074535061,
+        "stop" : 1555074535131,
+        "duration" : 70
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "client",
+        "value" : "main.Client@6cdde9ef"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Переходим назад к списку брендов",
+      "time" : {
+        "start" : 1555074535131,
+        "stop" : 1555074536339,
+        "duration" : 1208
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Избавляемся от поп-апа 'Новая функция \"Повторить заказ\"'",
+      "time" : {
+        "start" : 1555074536339,
+        "stop" : 1555074544824,
+        "duration" : 8485
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Кликаем на поле с адресом доставки",
+      "time" : {
+        "start" : 1555074544824,
+        "stop" : 1555074548067,
+        "duration" : 3243
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Кликаем по кнопке \"Изменить адрес\"",
+      "time" : {
+        "start" : 1555074548067,
+        "stop" : 1555074551300,
+        "duration" : 3233
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Смена адреса клиента на случайный",
+      "time" : {
+        "start" : 1555074551300,
+        "stop" : 1555074566004,
+        "duration" : 14704
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Кликаем на случайный бренд",
+      "time" : {
+        "start" : 1555074566004,
+        "stop" : 1555074569224,
+        "duration" : 3220
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Кликаем на случайную категорию",
+      "time" : {
+        "start" : 1555074569224,
+        "stop" : 1555074574490,
+        "duration" : 5266
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Кликаем на случайную подкатегорию",
+      "time" : {
+        "start" : 1555074574490,
+        "stop" : 1555074577072,
+        "duration" : 2582
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Накидываем товары в корзину",
+      "time" : {
+        "start" : 1555074577072,
+        "stop" : 1555074580671,
+        "duration" : 3599
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "count",
+        "value" : "5"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Кликаем по значку Корзины",
+      "time" : {
+        "start" : 1555074580671,
+        "stop" : 1555074583891,
+        "duration" : 3220
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Кликаем по кнопке Оформить заказ",
+      "time" : {
+        "start" : 1555074583891,
+        "stop" : 1555074585140,
+        "duration" : 1249
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Заполняем поля Подъезд, Этаж, Кв./Офис, Код домофона",
+      "time" : {
+        "start" : 1555074585140,
+        "stop" : 1555074585924,
+        "duration" : 784
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "porch",
+        "value" : "1"
+      }, {
+        "name" : "floor",
+        "value" : "2"
+      }, {
+        "name" : "flat",
+        "value" : "3"
+      }, {
+        "name" : "intercom",
+        "value" : "123"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Кликаем по кнопке Далее на экране Доставка",
+      "time" : {
+        "start" : 1555074585924,
+        "stop" : 1555074589041,
+        "duration" : 3117
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Кликаем по кнопке Далее на экране Время доставки",
+      "time" : {
+        "start" : 1555074589041,
+        "stop" : 1555074592277,
+        "duration" : 3236
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Вводим комментарий клиента",
+      "time" : {
+        "start" : 1555074592277,
+        "stop" : 1555074592964,
+        "duration" : 687
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "comment",
+        "value" : "Yo, yo yo, 148-3 to the 3 to the 6 to the 9, representing the ABQ, what up biatch?!"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Добавляем тестовую карту оплаты, если она ещё не привязана",
+      "time" : {
+        "start" : 1555074592964,
+        "stop" : 1555074593112,
+        "duration" : 148
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "deviceName",
+        "value" : "e4986fbc"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Нажимаем кнопку ОПЛАТИТЬ",
+      "time" : {
+        "start" : 1555074593112,
+        "stop" : 1555074593244,
+        "duration" : 132
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Нажимаем кнопку ОК на алерте \"Новый заказ\"",
+      "time" : {
+        "start" : 1555074593244,
+        "stop" : 1555074604568,
+        "duration" : 11324
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "deviceName",
+        "value" : "e4986fbc"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Подтаскиваем всю инфу о созданном заказе",
+      "time" : {
+        "start" : 1555074604717,
+        "stop" : 1555074606243,
+        "duration" : 1526
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "id",
+        "value" : "107990"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Проверяем, что статус заказа \"Ваш заказ принят\"",
+      "time" : {
+        "start" : 1555074606243,
+        "stop" : 1555074607430,
+        "duration" : 1187
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Меняем статус заказа",
+      "time" : {
+        "start" : 1555074607430,
+        "stop" : 1555074608735,
+        "duration" : 1305
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "status",
+        "value" : "packing"
+      }, {
+        "name" : "order",
+        "value" : "main.Order@439183cf"
+      }, {
+        "name" : "client",
+        "value" : "main.Client@6cdde9ef"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Проверяем, что статус заказа \"Ваш заказ собирается\"",
+      "time" : {
+        "start" : 1555074620370,
+        "stop" : 1555074621485,
+        "duration" : 1115
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Меняем статус заказа",
+      "time" : {
+        "start" : 1555074621485,
+        "stop" : 1555074623194,
+        "duration" : 1709
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "status",
+        "value" : "compiled"
+      }, {
+        "name" : "order",
+        "value" : "main.Order@439183cf"
+      }, {
+        "name" : "client",
+        "value" : "main.Client@6cdde9ef"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Проверяем, что статус заказа \"Ваш заказ собран\"",
+      "time" : {
+        "start" : 1555074634460,
+        "stop" : 1555074635620,
+        "duration" : 1160
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Меняем статус заказа",
+      "time" : {
+        "start" : 1555074635620,
+        "stop" : 1555074638826,
+        "duration" : 3206
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "status",
+        "value" : "ship"
+      }, {
+        "name" : "order",
+        "value" : "main.Order@439183cf"
+      }, {
+        "name" : "client",
+        "value" : "main.Client@6cdde9ef"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Проверяем, что статус заказа \"Ваш заказ в пути\"",
+      "time" : {
+        "start" : 1555074649583,
+        "stop" : 1555074650693,
+        "duration" : 1110
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Меняем статус заказа",
+      "time" : {
+        "start" : 1555074650693,
+        "stop" : 1555074657924,
+        "duration" : 7231
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "status",
+        "value" : "done"
+      }, {
+        "name" : "order",
+        "value" : "main.Order@439183cf"
+      }, {
+        "name" : "client",
+        "value" : "main.Client@6cdde9ef"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Выставляем оценку заказа",
+      "time" : {
+        "start" : 1555074663141,
+        "stop" : 1555074664419,
+        "duration" : 1278
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "rating",
+        "value" : "5"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Жмем кнопку \"ОТПРАВИТЬ\", чтобы отправить оценку",
+      "time" : {
+        "start" : 1555074664419,
+        "stop" : 1555074669664,
+        "duration" : 5245
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Проверяем наличие алерта \"Если вам нравится приложение, оцените его!\"",
+      "time" : {
+        "start" : 1555074669664,
+        "stop" : 1555074671051,
+        "duration" : 1387
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Жмем кнопку \"ОЦЕНИТЬ\" на алерте",
+      "time" : {
+        "start" : 1555074671051,
+        "stop" : 1555074674844,
+        "duration" : 3793
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Убеждаемся, что мы перешли в Google Play Market на страницу приложения",
+      "time" : {
+        "start" : 1555074674844,
+        "stop" : 1555074676058,
+        "duration" : 1214
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "66bac5871b2e336e",
+      "name" : "Page screenshot",
+      "source" : "66bac5871b2e336e.png",
+      "type" : "image/png",
+      "size" : 677246
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 40,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "XiaomiMiMix2"
+  }, {
+    "name" : "testClass",
+    "value" : "XiaomiMiMix2.X2_TotalRegress"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test009"
+  }, {
+    "name" : "suite",
+    "value" : "XiaomiMiMix2.X2_TotalRegress"
+  }, {
+    "name" : "host",
+    "value" : "SV-IT-5"
+  }, {
+    "name" : "thread",
+    "value" : "8368@SV-IT-5.Test worker(11)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "source" : "3524a43e1ca2136f.json",
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

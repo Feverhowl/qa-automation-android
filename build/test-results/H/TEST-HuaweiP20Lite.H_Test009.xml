@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="HuaweiP20Lite.H_Test009" tests="1" skipped="0" failures="1" errors="0" timestamp="2019-04-05T12:00:29" hostname="SV-IT-5" time="308.375">
+  <properties/>
+  <testcase name="Test009" classname="HuaweiP20Lite.H_Test009" time="308.375">
+    <failure message="org.openqa.selenium.WebDriverException: chrome not reachable&#10;  (Session info: content shell=)&#10;  (Driver info: chromedriver=2.20.366854 (5ec7646c06c3266f27ae291db023e006190cc1cc),platform=Windows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 15 milliseconds&#10;Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'&#10;System info: host: 'SV-IT-5', ip: '192.168.2.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities [{appPackage=com.savetime, app=C:\Automation\apks\client-19-mar.apk, deviceScreenSize=1080x2280, networkConnectionEnabled=true, setWebContentsDebuggingEnabled=true, warnings={}, databaseEnabled=false, deviceName=9WV4C18813005662, platform=LINUX, deviceUDID=9WV4C18813005662, appActivity=com.savetime.MainActivity, desired={appPackage=com.savetime, appActivity=com.savetime.MainActivity, app=C:\Automation\apks\client-19-mar.apk, setWebContentsDebuggingEnabled=true, platformVersion=8.0.0, automationName=Appium, autoGrantPermissions=true, platformName=Android, deviceName=9WV4C18813005662}, platformVersion=8.0.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, autoGrantPermissions=true, javascriptEnabled=true, deviceModel=ANE-LX1, platformName=Android, deviceManufacturer=HUAWEI}]&#10;Session ID: 262c4012-1c9e-4d12-9d4c-f4e046724aa1" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: content shell=)
+  (Driver info: chromedriver=2.20.366854 (5ec7646c06c3266f27ae291db023e006190cc1cc),platform=Windows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'SV-IT-5', ip: '192.168.2.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.savetime, app=C:\Automation\apks\client-19-mar.apk, deviceScreenSize=1080x2280, networkConnectionEnabled=true, setWebContentsDebuggingEnabled=true, warnings={}, databaseEnabled=false, deviceName=9WV4C18813005662, platform=LINUX, deviceUDID=9WV4C18813005662, appActivity=com.savetime.MainActivity, desired={appPackage=com.savetime, appActivity=com.savetime.MainActivity, app=C:\Automation\apks\client-19-mar.apk, setWebContentsDebuggingEnabled=true, platformVersion=8.0.0, automationName=Appium, autoGrantPermissions=true, platformName=Android, deviceName=9WV4C18813005662}, platformVersion=8.0.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, autoGrantPermissions=true, javascriptEnabled=true, deviceModel=ANE-LX1, platformName=Android, deviceManufacturer=HUAWEI}]
+Session ID: 262c4012-1c9e-4d12-9d4c-f4e046724aa1
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:235)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:335)
+	at main.Main.saveAllureScreenshot(Main.java:1046)
+	at HuaweiP20Lite.H_Test009.tearDown(H_Test009.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:33)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+  </testcase>
+  <system-out><![CDATA[Текущий контекст: WEBVIEW_com.savetime
+????????????????????????????????????????????????????????????????????????????????????
+? Информация о клиенте: Оксана
+???????????????????????????????????????????????????????????????????????????
+? ID клиента: 14502
+? Имя клиента: Оксана
+? Телефон клиента: 79175222224
+? Реферальный код клиента: OKSANA134
+? Статус клиента: basic
+? Сейвкоины клиента: 40.96
+????????????????????????????????????????????????????????????????????????????????????
+Текущий контекст: WEBVIEW_com.savetime
+Текущий контекст: WEBVIEW_com.savetime
+Текущий контекст: NATIVE_APP
+Текущий контекст: WEBVIEW_com.savetime
+Текущий контекст: NATIVE_APP
+Текущий контекст: WEBVIEW_com.savetime
+Текущий контекст: NATIVE_APP
+Текущий контекст: WEBVIEW_com.savetime
+????????????????????????????????????????????????????????????????????????????????????
+? Информация о заказе № 107803
+???????????????????????????????????????????????????????????????????????????
+? ID заказа: 107803
+? Статус заказа: hold
+? Сумма корзины: 775.9
+? Сумма доставки: 199.0
+? Сумма итого: 0.0
+? Дата создания заказа: 2019-04-05 12:03:41.0
+? Дата завершения доставки: null
+? Адрес магазина: Москва, ул.Алтуфьевское шоссе, д. 8
+? Адрес клиента: ул. Менжинского, 15к1
+? Подъезд клиента: 1
+? Этаж клиента: 2
+? Квартира клиента: 3
+? Домофон клиента: 123
+? Комментарий клиента: Yo, yo yo, 148-3 to the 3 to the 6 to the 9, representing the ABQ, what up biatch?!
+????????????????????????????????????????????????????????????????????????????????????
+Изменено строк в базе: 1. Статус заказа №107803 изменён на: packing
+Изменено строк в базе: 1. Статус заказа №107803 изменён на: compiled
+Изменено строк в базе: 1. Статус заказа №107803 изменён на: ship
+Изменено строк в базе: 1. Статус заказа №107803 изменён на: done
+Текущий контекст: NATIVE_APP
+Текущий контекст: WEBVIEW_com.savetime
+Текущий контекст: NATIVE_APP
+Текущий контекст: WEBVIEW_com.savetime
+Текущий контекст: NATIVE_APP
+Текущий контекст: WEBVIEW_com.savetime
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+</testsuite>

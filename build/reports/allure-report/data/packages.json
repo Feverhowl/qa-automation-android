@@ -1,0 +1,341 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "SamsungGalaxyJ1miniPrime",
+    "children" : [ {
+      "name" : "Test001",
+      "uid" : "f39e92a0328727f4",
+      "parentUid" : "cd134efd2040b3b418112e2341529e07",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555072662355,
+        "stop" : 1555072791089,
+        "duration" : 128734
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test002",
+      "uid" : "7287916e5ad066f",
+      "parentUid" : "cd134efd2040b3b418112e2341529e07",
+      "status" : "broken",
+      "time" : {
+        "start" : 1555072791184,
+        "stop" : 1555072891035,
+        "duration" : 99851
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test003",
+      "uid" : "e37af6d8e178f7a4",
+      "parentUid" : "cd134efd2040b3b418112e2341529e07",
+      "status" : "broken",
+      "time" : {
+        "start" : 1555072891039,
+        "stop" : 1555072992560,
+        "duration" : 101521
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test004",
+      "uid" : "f34b57dac81582ae",
+      "parentUid" : "cd134efd2040b3b418112e2341529e07",
+      "status" : "broken",
+      "time" : {
+        "start" : 1555072992563,
+        "stop" : 1555073094530,
+        "duration" : 101967
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test005",
+      "uid" : "ec828ea5ec050575",
+      "parentUid" : "cd134efd2040b3b418112e2341529e07",
+      "status" : "broken",
+      "time" : {
+        "start" : 1555073094533,
+        "stop" : 1555073192787,
+        "duration" : 98254
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test006",
+      "uid" : "38b3b423eaff0771",
+      "parentUid" : "cd134efd2040b3b418112e2341529e07",
+      "status" : "broken",
+      "time" : {
+        "start" : 1555073192795,
+        "stop" : 1555073482448,
+        "duration" : 289653
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test007",
+      "uid" : "de0d5f0802e971e5",
+      "parentUid" : "cd134efd2040b3b418112e2341529e07",
+      "status" : "broken",
+      "time" : {
+        "start" : 1555073482462,
+        "stop" : 1555073582716,
+        "duration" : 100254
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test008",
+      "uid" : "5dba5e6193ef3775",
+      "parentUid" : "cd134efd2040b3b418112e2341529e07",
+      "status" : "broken",
+      "time" : {
+        "start" : 1555073582732,
+        "stop" : 1555073691197,
+        "duration" : 108465
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test009",
+      "uid" : "452b1bdc3757ddc1",
+      "parentUid" : "cd134efd2040b3b418112e2341529e07",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555073691206,
+        "stop" : 1555073952173,
+        "duration" : 260967
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "cd134efd2040b3b418112e2341529e07"
+  }, {
+    "name" : "XiaomiRedmi4a",
+    "children" : [ {
+      "name" : "Test001",
+      "uid" : "f97096bd2f6ffc4a",
+      "parentUid" : "9fdc2a803b469224ded37e00770c13f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555072672315,
+        "stop" : 1555072729460,
+        "duration" : 57145
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test002",
+      "uid" : "9545e3103c57b38d",
+      "parentUid" : "9fdc2a803b469224ded37e00770c13f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555072729550,
+        "stop" : 1555073020317,
+        "duration" : 290767
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test003",
+      "uid" : "50210a6901f9f46c",
+      "parentUid" : "9fdc2a803b469224ded37e00770c13f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555073020320,
+        "stop" : 1555073325673,
+        "duration" : 305353
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test004",
+      "uid" : "9bf54c0bd5fd668b",
+      "parentUid" : "9fdc2a803b469224ded37e00770c13f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555073325676,
+        "stop" : 1555073629249,
+        "duration" : 303573
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test005",
+      "uid" : "88fba6e9cc85f346",
+      "parentUid" : "9fdc2a803b469224ded37e00770c13f9",
+      "status" : "failed",
+      "time" : {
+        "start" : 1555073629252,
+        "stop" : 1555073882153,
+        "duration" : 252901
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test006",
+      "uid" : "30f3463197737df1",
+      "parentUid" : "9fdc2a803b469224ded37e00770c13f9",
+      "status" : "broken",
+      "time" : {
+        "start" : 1555073882157,
+        "stop" : 1555073952810,
+        "duration" : 70653
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test007",
+      "uid" : "3b35ea2d2077cce",
+      "parentUid" : "9fdc2a803b469224ded37e00770c13f9",
+      "status" : "broken",
+      "time" : {
+        "start" : 1555073952813,
+        "stop" : 1555074189193,
+        "duration" : 236380
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test008",
+      "uid" : "81e2030c892ef61f",
+      "parentUid" : "9fdc2a803b469224ded37e00770c13f9",
+      "status" : "failed",
+      "time" : {
+        "start" : 1555074189198,
+        "stop" : 1555074373211,
+        "duration" : 184013
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test009",
+      "uid" : "ecea919d118f5c7f",
+      "parentUid" : "9fdc2a803b469224ded37e00770c13f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555074373214,
+        "stop" : 1555074573115,
+        "duration" : 199901
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9fdc2a803b469224ded37e00770c13f9"
+  }, {
+    "name" : "XiaomiMiMix2",
+    "children" : [ {
+      "name" : "Test001",
+      "uid" : "a1e06d96a7b2e9bb",
+      "parentUid" : "679ac45376973e82cf883e72e16fc33e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555072805171,
+        "stop" : 1555072852450,
+        "duration" : 47279
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test002",
+      "uid" : "3d7db969e7eb380c",
+      "parentUid" : "679ac45376973e82cf883e72e16fc33e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555072852553,
+        "stop" : 1555073101692,
+        "duration" : 249139
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test003",
+      "uid" : "5623fc219f714ae0",
+      "parentUid" : "679ac45376973e82cf883e72e16fc33e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555073101695,
+        "stop" : 1555073384724,
+        "duration" : 283029
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test004",
+      "uid" : "808ab5a59331990c",
+      "parentUid" : "679ac45376973e82cf883e72e16fc33e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555073384727,
+        "stop" : 1555073662724,
+        "duration" : 277997
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test005",
+      "uid" : "bef94f7857bea4d",
+      "parentUid" : "679ac45376973e82cf883e72e16fc33e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555073662727,
+        "stop" : 1555073874079,
+        "duration" : 211352
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test006",
+      "uid" : "2b0c1c129ee77ea7",
+      "parentUid" : "679ac45376973e82cf883e72e16fc33e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555073874081,
+        "stop" : 1555074076294,
+        "duration" : 202213
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test007",
+      "uid" : "265d61fe4b1531b9",
+      "parentUid" : "679ac45376973e82cf883e72e16fc33e",
+      "status" : "broken",
+      "time" : {
+        "start" : 1555074076297,
+        "stop" : 1555074306957,
+        "duration" : 230660
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test008",
+      "uid" : "57eb03b783c64ed2",
+      "parentUid" : "679ac45376973e82cf883e72e16fc33e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1555074306961,
+        "stop" : 1555074484438,
+        "duration" : 177477
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test009",
+      "uid" : "3524a43e1ca2136f",
+      "parentUid" : "679ac45376973e82cf883e72e16fc33e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555074484441,
+        "stop" : 1555074678848,
+        "duration" : 194407
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "679ac45376973e82cf883e72e16fc33e"
+  } ]
+}

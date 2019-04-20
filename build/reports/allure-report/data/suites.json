@@ -1,0 +1,341 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "SamsungGalaxyJ1miniPrime.S_TotalRegress",
+    "children" : [ {
+      "name" : "Тест №001 - Проверка текущего количества сейвкоинов клиента",
+      "uid" : "f39e92a0328727f4",
+      "parentUid" : "85747901167a838b335e6455ed9f8c4d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555072662355,
+        "stop" : 1555072791089,
+        "duration" : 128734
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Тест №002 - End to End - От авторизации до завершения заказа",
+      "uid" : "7287916e5ad066f",
+      "parentUid" : "85747901167a838b335e6455ed9f8c4d",
+      "status" : "broken",
+      "time" : {
+        "start" : 1555072791184,
+        "stop" : 1555072891035,
+        "duration" : 99851
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Тест №003 - End to End - Проверка работы фиксированного промокода",
+      "uid" : "e37af6d8e178f7a4",
+      "parentUid" : "85747901167a838b335e6455ed9f8c4d",
+      "status" : "broken",
+      "time" : {
+        "start" : 1555072891039,
+        "stop" : 1555072992560,
+        "duration" : 101521
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Тест №004 - End to End - Проверка работы процентного промокода",
+      "uid" : "f34b57dac81582ae",
+      "parentUid" : "85747901167a838b335e6455ed9f8c4d",
+      "status" : "broken",
+      "time" : {
+        "start" : 1555072992563,
+        "stop" : 1555073094530,
+        "duration" : 101967
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Тест №005 - End to End - Проверка корректного списания сейвкоинов",
+      "uid" : "ec828ea5ec050575",
+      "parentUid" : "85747901167a838b335e6455ed9f8c4d",
+      "status" : "broken",
+      "time" : {
+        "start" : 1555073094533,
+        "stop" : 1555073192787,
+        "duration" : 98254
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Тест №006 - End to End - Корректное начисление сейвкоинов",
+      "uid" : "38b3b423eaff0771",
+      "parentUid" : "85747901167a838b335e6455ed9f8c4d",
+      "status" : "broken",
+      "time" : {
+        "start" : 1555073192795,
+        "stop" : 1555073482448,
+        "duration" : 289653
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Тест №007 - End to End - Проверка функционала 'Повторить заказ'",
+      "uid" : "de0d5f0802e971e5",
+      "parentUid" : "85747901167a838b335e6455ed9f8c4d",
+      "status" : "broken",
+      "time" : {
+        "start" : 1555073482462,
+        "stop" : 1555073582716,
+        "duration" : 100254
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Тест №008 - Проверка функционала 'Отменить заказ'",
+      "uid" : "5dba5e6193ef3775",
+      "parentUid" : "85747901167a838b335e6455ed9f8c4d",
+      "status" : "broken",
+      "time" : {
+        "start" : 1555073582732,
+        "stop" : 1555073691197,
+        "duration" : 108465
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Тест №009 - Проверка функционала 'Оценка заказа' и перенаправления в Google Play Market",
+      "uid" : "452b1bdc3757ddc1",
+      "parentUid" : "85747901167a838b335e6455ed9f8c4d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555073691206,
+        "stop" : 1555073952173,
+        "duration" : 260967
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "85747901167a838b335e6455ed9f8c4d"
+  }, {
+    "name" : "XiaomiRedmi4a.X_TotalRegress",
+    "children" : [ {
+      "name" : "Тест №001 - Проверка текущего количества сейвкоинов клиента",
+      "uid" : "f97096bd2f6ffc4a",
+      "parentUid" : "18bcc63e58e7aab0283b0d83cf02d735",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555072672315,
+        "stop" : 1555072729460,
+        "duration" : 57145
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Тест №002 - End to End - От авторизации до завершения заказа",
+      "uid" : "9545e3103c57b38d",
+      "parentUid" : "18bcc63e58e7aab0283b0d83cf02d735",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555072729550,
+        "stop" : 1555073020317,
+        "duration" : 290767
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Тест №003 - End to End - Проверка работы фиксированного промокода",
+      "uid" : "50210a6901f9f46c",
+      "parentUid" : "18bcc63e58e7aab0283b0d83cf02d735",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555073020320,
+        "stop" : 1555073325673,
+        "duration" : 305353
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Тест №004 - End to End - Проверка работы процентного промокода",
+      "uid" : "9bf54c0bd5fd668b",
+      "parentUid" : "18bcc63e58e7aab0283b0d83cf02d735",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555073325676,
+        "stop" : 1555073629249,
+        "duration" : 303573
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Тест №005 - End to End - Проверка корректного списания сейвкоинов",
+      "uid" : "88fba6e9cc85f346",
+      "parentUid" : "18bcc63e58e7aab0283b0d83cf02d735",
+      "status" : "failed",
+      "time" : {
+        "start" : 1555073629252,
+        "stop" : 1555073882153,
+        "duration" : 252901
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Тест №006 - End to End - Корректное начисление сейвкоинов",
+      "uid" : "30f3463197737df1",
+      "parentUid" : "18bcc63e58e7aab0283b0d83cf02d735",
+      "status" : "broken",
+      "time" : {
+        "start" : 1555073882157,
+        "stop" : 1555073952810,
+        "duration" : 70653
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Тест №007 - End to End - Проверка функционала 'Повторить заказ'",
+      "uid" : "3b35ea2d2077cce",
+      "parentUid" : "18bcc63e58e7aab0283b0d83cf02d735",
+      "status" : "broken",
+      "time" : {
+        "start" : 1555073952813,
+        "stop" : 1555074189193,
+        "duration" : 236380
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Тест №008 - Проверка функционала 'Отменить заказ'",
+      "uid" : "81e2030c892ef61f",
+      "parentUid" : "18bcc63e58e7aab0283b0d83cf02d735",
+      "status" : "failed",
+      "time" : {
+        "start" : 1555074189198,
+        "stop" : 1555074373211,
+        "duration" : 184013
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Тест №009 - Проверка функционала 'Оценка заказа' и перенаправления в Google Play Market",
+      "uid" : "ecea919d118f5c7f",
+      "parentUid" : "18bcc63e58e7aab0283b0d83cf02d735",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555074373214,
+        "stop" : 1555074573115,
+        "duration" : 199901
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "18bcc63e58e7aab0283b0d83cf02d735"
+  }, {
+    "name" : "XiaomiMiMix2.X2_TotalRegress",
+    "children" : [ {
+      "name" : "Тест №001 - Проверка текущего количества сейвкоинов клиента",
+      "uid" : "a1e06d96a7b2e9bb",
+      "parentUid" : "abf676e10e9b2313f2f366b6ae42b362",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555072805171,
+        "stop" : 1555072852450,
+        "duration" : 47279
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Тест №002 - End to End - От авторизации до завершения заказа",
+      "uid" : "3d7db969e7eb380c",
+      "parentUid" : "abf676e10e9b2313f2f366b6ae42b362",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555072852553,
+        "stop" : 1555073101692,
+        "duration" : 249139
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Тест №003 - End to End - Проверка работы фиксированного промокода",
+      "uid" : "5623fc219f714ae0",
+      "parentUid" : "abf676e10e9b2313f2f366b6ae42b362",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555073101695,
+        "stop" : 1555073384724,
+        "duration" : 283029
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Тест №004 - End to End - Проверка работы процентного промокода",
+      "uid" : "808ab5a59331990c",
+      "parentUid" : "abf676e10e9b2313f2f366b6ae42b362",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555073384727,
+        "stop" : 1555073662724,
+        "duration" : 277997
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Тест №005 - End to End - Проверка корректного списания сейвкоинов",
+      "uid" : "bef94f7857bea4d",
+      "parentUid" : "abf676e10e9b2313f2f366b6ae42b362",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555073662727,
+        "stop" : 1555073874079,
+        "duration" : 211352
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Тест №006 - End to End - Корректное начисление сейвкоинов",
+      "uid" : "2b0c1c129ee77ea7",
+      "parentUid" : "abf676e10e9b2313f2f366b6ae42b362",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555073874081,
+        "stop" : 1555074076294,
+        "duration" : 202213
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Тест №007 - End to End - Проверка функционала 'Повторить заказ'",
+      "uid" : "265d61fe4b1531b9",
+      "parentUid" : "abf676e10e9b2313f2f366b6ae42b362",
+      "status" : "broken",
+      "time" : {
+        "start" : 1555074076297,
+        "stop" : 1555074306957,
+        "duration" : 230660
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Тест №008 - Проверка функционала 'Отменить заказ'",
+      "uid" : "57eb03b783c64ed2",
+      "parentUid" : "abf676e10e9b2313f2f366b6ae42b362",
+      "status" : "failed",
+      "time" : {
+        "start" : 1555074306961,
+        "stop" : 1555074484438,
+        "duration" : 177477
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Тест №009 - Проверка функционала 'Оценка заказа' и перенаправления в Google Play Market",
+      "uid" : "3524a43e1ca2136f",
+      "parentUid" : "abf676e10e9b2313f2f366b6ae42b362",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555074484441,
+        "stop" : 1555074678848,
+        "duration" : 194407
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "abf676e10e9b2313f2f366b6ae42b362"
+  } ]
+}

@@ -1,0 +1,528 @@
+{
+  "b4a467d21437f51c5d70c3a51095527f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ecea919d118f5c7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555074373214,
+        "stop" : 1555074573115,
+        "duration" : 199901
+      }
+    } ]
+  },
+  "da809a41a13e477fe9a5b873b774fea9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7287916e5ad066f",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Element is not clickable at point (84, 241). Other element would receive the click: <h2>...</h2>\n  (Session info: content shell=)\n  (Driver info: chromedriver=2.20.366854 (5ec7646c06c3266f27ae291db023e006190cc1cc),platform=Windows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 267 milliseconds\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'SV-IT-5', ip: '192.168.2.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities [{appPackage=com.savetime, app=C:\\Automation\\apks\\client-12-apr.apk, deviceScreenSize=480x800, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=32010f78a810444a, platform=LINUX, deviceUDID=32010f78a810444a, appActivity=com.savetime.MainActivity, desired={appPackage=com.savetime, appActivity=com.savetime.MainActivity, app=C:\\Automation\\apks\\client-12-apr.apk, platformVersion=6.0.1, automationName=Appium, autoGrantPermissions=true, platformName=Android, deviceName=32010f78a810444a}, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, autoGrantPermissions=true, javascriptEnabled=true, deviceModel=SM-J106F, platformName=Android, deviceManufacturer=samsung}]\nSession ID: 4aa5051d-5e2e-4446-b040-833d3970834e",
+      "time" : {
+        "start" : 1555072791184,
+        "stop" : 1555072891035,
+        "duration" : 99851
+      }
+    } ]
+  },
+  "99fc4d11b4fcf8fbeeb6cdf1297bd5ae" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2b0c1c129ee77ea7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555073874081,
+        "stop" : 1555074076294,
+        "duration" : 202213
+      }
+    } ]
+  },
+  "baaad724338e0c860a616e04935ab438" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f39e92a0328727f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555072662355,
+        "stop" : 1555072791089,
+        "duration" : 128734
+      }
+    } ]
+  },
+  "64cf2bc953b92b912e3466caecc26e5d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "30f3463197737df1",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Element is not clickable at point (182, 28). Other element would receive the click: <div class=\"sheet-backdrop backdrop-in\"></div>\n  (Session info: content shell=)\n  (Driver info: chromedriver=2.20.366854 (5ec7646c06c3266f27ae291db023e006190cc1cc),platform=Windows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 134 milliseconds\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'SV-IT-5', ip: '192.168.2.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities [{appPackage=com.savetime, app=C:\\Automation\\apks\\client-12-apr.apk, deviceScreenSize=720x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=2fcaae347d74, platform=LINUX, deviceUDID=2fcaae347d74, appActivity=com.savetime.MainActivity, desired={appPackage=com.savetime, appActivity=com.savetime.MainActivity, app=C:\\Automation\\apks\\client-12-apr.apk, platformVersion=7.1.2, automationName=Appium, autoGrantPermissions=true, platformName=Android, deviceName=2fcaae347d74}, platformVersion=7.1.2, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, autoGrantPermissions=true, javascriptEnabled=true, deviceModel=Redmi 4A, platformName=Android, deviceManufacturer=Xiaomi}]\nSession ID: 78304dbe-667e-40b9-b1ec-44d05f4f4a63",
+      "time" : {
+        "start" : 1555073882157,
+        "stop" : 1555073952810,
+        "duration" : 70653
+      }
+    } ]
+  },
+  "574b365b72ae6caa3e982e00c29196cb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f97096bd2f6ffc4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555072672315,
+        "stop" : 1555072729460,
+        "duration" : 57145
+      }
+    } ]
+  },
+  "45b78faaf645a0179aada869ff01bc9e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3524a43e1ca2136f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555074484441,
+        "stop" : 1555074678848,
+        "duration" : 194407
+      }
+    } ]
+  },
+  "a4cd6c1a0f0692143eebec702c1195ca" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9bf54c0bd5fd668b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555073325676,
+        "stop" : 1555073629249,
+        "duration" : 303573
+      }
+    } ]
+  },
+  "c8b1ccb13f4d595f1a3e34d9c00a7a46" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5623fc219f714ae0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555073101695,
+        "stop" : 1555073384724,
+        "duration" : 283029
+      }
+    } ]
+  },
+  "da9fb7ffe1a9ebc4fd26de119074de01" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "50210a6901f9f46c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555073020320,
+        "stop" : 1555073325673,
+        "duration" : 305353
+      }
+    } ]
+  },
+  "a180fa1fdb25d1cc86c758874c61f3a2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "de0d5f0802e971e5",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Element is not clickable at point (182, 28). Other element would receive the click: <div class=\"modal-backdrop\" __plugindomid=\"pgm1454658791997\"></div>\n  (Session info: content shell=)\n  (Driver info: chromedriver=2.20.366854 (5ec7646c06c3266f27ae291db023e006190cc1cc),platform=Windows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 878 milliseconds\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'SV-IT-5', ip: '192.168.2.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities [{appPackage=com.savetime, app=C:\\Automation\\apks\\client-12-apr.apk, deviceScreenSize=480x800, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=32010f78a810444a, platform=LINUX, deviceUDID=32010f78a810444a, appActivity=com.savetime.MainActivity, desired={appPackage=com.savetime, appActivity=com.savetime.MainActivity, app=C:\\Automation\\apks\\client-12-apr.apk, platformVersion=6.0.1, automationName=Appium, autoGrantPermissions=true, platformName=Android, deviceName=32010f78a810444a}, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, autoGrantPermissions=true, javascriptEnabled=true, deviceModel=SM-J106F, platformName=Android, deviceManufacturer=samsung}]\nSession ID: 4878054c-0a55-4d30-bfe6-d997f0c48970",
+      "time" : {
+        "start" : 1555073482462,
+        "stop" : 1555073582716,
+        "duration" : 100254
+      }
+    } ]
+  },
+  "5f77e3799ec6e52297d08ad07fdb2f0d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f34b57dac81582ae",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Element is not clickable at point (84, 295). Other element would receive the click: <div class=\"modal-message\">...</div>\n  (Session info: content shell=)\n  (Driver info: chromedriver=2.20.366854 (5ec7646c06c3266f27ae291db023e006190cc1cc),platform=Windows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 286 milliseconds\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'SV-IT-5', ip: '192.168.2.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities [{appPackage=com.savetime, app=C:\\Automation\\apks\\client-12-apr.apk, deviceScreenSize=480x800, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=32010f78a810444a, platform=LINUX, deviceUDID=32010f78a810444a, appActivity=com.savetime.MainActivity, desired={appPackage=com.savetime, appActivity=com.savetime.MainActivity, app=C:\\Automation\\apks\\client-12-apr.apk, platformVersion=6.0.1, automationName=Appium, autoGrantPermissions=true, platformName=Android, deviceName=32010f78a810444a}, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, autoGrantPermissions=true, javascriptEnabled=true, deviceModel=SM-J106F, platformName=Android, deviceManufacturer=samsung}]\nSession ID: e91e831d-5f9d-427a-a598-88f7bbd51a07",
+      "time" : {
+        "start" : 1555072992563,
+        "stop" : 1555073094530,
+        "duration" : 101967
+      }
+    } ]
+  },
+  "b76fa47a70a97ac65658c185ad204fce" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "265d61fe4b1531b9",
+      "status" : "broken",
+      "statusDetails" : "Timed out after 7 seconds: Не могу найти кнопку 'перейти в корзину'\n\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'SV-IT-5', ip: '192.168.2.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities [{appPackage=com.savetime, app=C:\\Automation\\apks\\client-12-apr.apk, deviceScreenSize=1080x2160, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=e4986fbc, platform=LINUX, deviceUDID=e4986fbc, appActivity=com.savetime.MainActivity, desired={appPackage=com.savetime, appActivity=com.savetime.MainActivity, app=C:\\Automation\\apks\\client-12-apr.apk, platformVersion=8.0.0, automationName=Appium, autoGrantPermissions=true, platformName=Android, deviceName=e4986fbc}, platformVersion=8.0.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, autoGrantPermissions=true, javascriptEnabled=true, deviceModel=Mi MIX 2, platformName=Android, deviceManufacturer=Xiaomi}]\nSession ID: dcddf5d1-b936-4b10-8213-33811af0e8ac",
+      "time" : {
+        "start" : 1555074076297,
+        "stop" : 1555074306957,
+        "duration" : 230660
+      }
+    } ]
+  },
+  "c7aad7f4f8d604d14d11facb6200231f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3d7db969e7eb380c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555072852553,
+        "stop" : 1555073101692,
+        "duration" : 249139
+      }
+    } ]
+  },
+  "af6f021b88aa28496c351d84ca14d999" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a1e06d96a7b2e9bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555072805171,
+        "stop" : 1555072852450,
+        "duration" : 47279
+      }
+    } ]
+  },
+  "dfa3984ddfb75c2c652f1aabbec21a90" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "452b1bdc3757ddc1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555073691206,
+        "stop" : 1555073952173,
+        "duration" : 260967
+      }
+    } ]
+  },
+  "be4e346c52acd29e0d0bd05e10be95f0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e37af6d8e178f7a4",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Element is not clickable at point (84, 454). Other element would receive the click: <div class=\"modal-backdrop\" __plugindomid=\"pgm522350986838\"></div>\n  (Session info: content shell=)\n  (Driver info: chromedriver=2.20.366854 (5ec7646c06c3266f27ae291db023e006190cc1cc),platform=Windows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 284 milliseconds\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'SV-IT-5', ip: '192.168.2.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities [{appPackage=com.savetime, app=C:\\Automation\\apks\\client-12-apr.apk, deviceScreenSize=480x800, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=32010f78a810444a, platform=LINUX, deviceUDID=32010f78a810444a, appActivity=com.savetime.MainActivity, desired={appPackage=com.savetime, appActivity=com.savetime.MainActivity, app=C:\\Automation\\apks\\client-12-apr.apk, platformVersion=6.0.1, automationName=Appium, autoGrantPermissions=true, platformName=Android, deviceName=32010f78a810444a}, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, autoGrantPermissions=true, javascriptEnabled=true, deviceModel=SM-J106F, platformName=Android, deviceManufacturer=samsung}]\nSession ID: c55ad5b7-7dc5-4b98-89a1-30aa346b392b",
+      "time" : {
+        "start" : 1555072891039,
+        "stop" : 1555072992560,
+        "duration" : 101521
+      }
+    } ]
+  },
+  "547a2dc5889248a7df9531e37c235d24" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bef94f7857bea4d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555073662727,
+        "stop" : 1555073874079,
+        "duration" : 211352
+      }
+    } ]
+  },
+  "7c6477df0d214dbe2489e67f4faa9ad5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "38b3b423eaff0771",
+      "status" : "broken",
+      "statusDetails" : "Error communicating with the remote browser. It may have died.\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'SV-IT-5', ip: '192.168.2.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'\nDriver info: driver.version: AndroidDriver\nCapabilities [{appPackage=com.savetime, app=C:\\Automation\\apks\\client-12-apr.apk, deviceScreenSize=480x800, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=32010f78a810444a, platform=LINUX, deviceUDID=32010f78a810444a, appActivity=com.savetime.MainActivity, desired={appPackage=com.savetime, appActivity=com.savetime.MainActivity, app=C:\\Automation\\apks\\client-12-apr.apk, platformVersion=6.0.1, automationName=Appium, autoGrantPermissions=true, platformName=Android, deviceName=32010f78a810444a}, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, autoGrantPermissions=true, javascriptEnabled=true, deviceModel=SM-J106F, platformName=Android, deviceManufacturer=samsung}]\nSession ID: 53a432c8-09f9-4a57-ab52-10049f0f1813",
+      "time" : {
+        "start" : 1555073192795,
+        "stop" : 1555073482448,
+        "duration" : 289653
+      }
+    } ]
+  },
+  "1c72ae2707fca596d03e49e11da4b74a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5dba5e6193ef3775",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Element is not clickable at point (182, 28). Other element would receive the click: <div class=\"modal-backdrop\" __plugindomid=\"pgm526666248098\"></div>\n  (Session info: content shell=)\n  (Driver info: chromedriver=2.20.366854 (5ec7646c06c3266f27ae291db023e006190cc1cc),platform=Windows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 256 milliseconds\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'SV-IT-5', ip: '192.168.2.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities [{appPackage=com.savetime, app=C:\\Automation\\apks\\client-12-apr.apk, deviceScreenSize=480x800, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=32010f78a810444a, platform=LINUX, deviceUDID=32010f78a810444a, appActivity=com.savetime.MainActivity, desired={appPackage=com.savetime, appActivity=com.savetime.MainActivity, app=C:\\Automation\\apks\\client-12-apr.apk, platformVersion=6.0.1, automationName=Appium, autoGrantPermissions=true, platformName=Android, deviceName=32010f78a810444a}, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, autoGrantPermissions=true, javascriptEnabled=true, deviceModel=SM-J106F, platformName=Android, deviceManufacturer=samsung}]\nSession ID: c56d8b5e-b101-4410-ae73-ab43998174bd",
+      "time" : {
+        "start" : 1555073582732,
+        "stop" : 1555073691197,
+        "duration" : 108465
+      }
+    } ]
+  },
+  "a5ee2df0829aa68ac68d8d75aa0b980b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3b35ea2d2077cce",
+      "status" : "broken",
+      "statusDetails" : "Timed out after 7 seconds: Не могу найти кнопку 'перейти в корзину'\n\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'SV-IT-5', ip: '192.168.2.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities [{appPackage=com.savetime, app=C:\\Automation\\apks\\client-12-apr.apk, deviceScreenSize=720x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=2fcaae347d74, platform=LINUX, deviceUDID=2fcaae347d74, appActivity=com.savetime.MainActivity, desired={appPackage=com.savetime, appActivity=com.savetime.MainActivity, app=C:\\Automation\\apks\\client-12-apr.apk, platformVersion=7.1.2, automationName=Appium, autoGrantPermissions=true, platformName=Android, deviceName=2fcaae347d74}, platformVersion=7.1.2, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, autoGrantPermissions=true, javascriptEnabled=true, deviceModel=Redmi 4A, platformName=Android, deviceManufacturer=Xiaomi}]\nSession ID: 9515ff7d-ef2e-429d-a75a-0431cc1ddccb",
+      "time" : {
+        "start" : 1555073952813,
+        "stop" : 1555074189193,
+        "duration" : 236380
+      }
+    } ]
+  },
+  "7d53ceaf2a5ce7f9d0517fca2dfe40e4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9545e3103c57b38d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555072729550,
+        "stop" : 1555073020317,
+        "duration" : 290767
+      }
+    } ]
+  },
+  "40f2d9c737e4c385184ca10a721996a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ec828ea5ec050575",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Element is not clickable at point (182, 28). Other element would receive the click: <div class=\"modal-backdrop\" __plugindomid=\"pgm1341732432948\"></div>\n  (Session info: content shell=)\n  (Driver info: chromedriver=2.20.366854 (5ec7646c06c3266f27ae291db023e006190cc1cc),platform=Windows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 721 milliseconds\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'SV-IT-5', ip: '192.168.2.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities [{appPackage=com.savetime, app=C:\\Automation\\apks\\client-12-apr.apk, deviceScreenSize=480x800, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=32010f78a810444a, platform=LINUX, deviceUDID=32010f78a810444a, appActivity=com.savetime.MainActivity, desired={appPackage=com.savetime, appActivity=com.savetime.MainActivity, app=C:\\Automation\\apks\\client-12-apr.apk, platformVersion=6.0.1, automationName=Appium, autoGrantPermissions=true, platformName=Android, deviceName=32010f78a810444a}, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, autoGrantPermissions=true, javascriptEnabled=true, deviceModel=SM-J106F, platformName=Android, deviceManufacturer=samsung}]\nSession ID: add5d5a5-0a98-448b-88b9-c4c28538784b",
+      "time" : {
+        "start" : 1555073094533,
+        "stop" : 1555073192787,
+        "duration" : 98254
+      }
+    } ]
+  },
+  "5469eaa450ae6476dd372cff93293a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "81e2030c892ef61f",
+      "status" : "failed",
+      "statusDetails" : "expected:<[Заказ отменен]> but was:<[]>",
+      "time" : {
+        "start" : 1555074189198,
+        "stop" : 1555074373211,
+        "duration" : 184013
+      }
+    } ]
+  },
+  "ae76d0e512200bf0d4e90a61925ef82a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "57eb03b783c64ed2",
+      "status" : "failed",
+      "statusDetails" : "expected:<[Заказ отменен]> but was:<[]>",
+      "time" : {
+        "start" : 1555074306961,
+        "stop" : 1555074484438,
+        "duration" : 177477
+      }
+    } ]
+  },
+  "807ab0491020864e134b527873ae0608" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "88fba6e9cc85f346",
+      "status" : "failed",
+      "statusDetails" : "expected:<423> but was:<426>",
+      "time" : {
+        "start" : 1555073629252,
+        "stop" : 1555073882153,
+        "duration" : 252901
+      }
+    } ]
+  },
+  "37295cd916c9c7c167424e8a295110c5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "808ab5a59331990c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555073384727,
+        "stop" : 1555073662724,
+        "duration" : 277997
+      }
+    } ]
+  }
+}

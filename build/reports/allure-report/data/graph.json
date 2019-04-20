@@ -1,0 +1,271 @@
+[ {
+  "uid" : "81e2030c892ef61f",
+  "name" : "Тест №008 - Проверка функционала 'Отменить заказ'",
+  "time" : {
+    "start" : 1555074189198,
+    "stop" : 1555074373211,
+    "duration" : 184013
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "452b1bdc3757ddc1",
+  "name" : "Тест №009 - Проверка функционала 'Оценка заказа' и перенаправления в Google Play Market",
+  "time" : {
+    "start" : 1555073691206,
+    "stop" : 1555073952173,
+    "duration" : 260967
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f97096bd2f6ffc4a",
+  "name" : "Тест №001 - Проверка текущего количества сейвкоинов клиента",
+  "time" : {
+    "start" : 1555072672315,
+    "stop" : 1555072729460,
+    "duration" : 57145
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5dba5e6193ef3775",
+  "name" : "Тест №008 - Проверка функционала 'Отменить заказ'",
+  "time" : {
+    "start" : 1555073582732,
+    "stop" : 1555073691197,
+    "duration" : 108465
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2b0c1c129ee77ea7",
+  "name" : "Тест №006 - End to End - Корректное начисление сейвкоинов",
+  "time" : {
+    "start" : 1555073874081,
+    "stop" : 1555074076294,
+    "duration" : 202213
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9bf54c0bd5fd668b",
+  "name" : "Тест №004 - End to End - Проверка работы процентного промокода",
+  "time" : {
+    "start" : 1555073325676,
+    "stop" : 1555073629249,
+    "duration" : 303573
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "38b3b423eaff0771",
+  "name" : "Тест №006 - End to End - Корректное начисление сейвкоинов",
+  "time" : {
+    "start" : 1555073192795,
+    "stop" : 1555073482448,
+    "duration" : 289653
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "88fba6e9cc85f346",
+  "name" : "Тест №005 - End to End - Проверка корректного списания сейвкоинов",
+  "time" : {
+    "start" : 1555073629252,
+    "stop" : 1555073882153,
+    "duration" : 252901
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ecea919d118f5c7f",
+  "name" : "Тест №009 - Проверка функционала 'Оценка заказа' и перенаправления в Google Play Market",
+  "time" : {
+    "start" : 1555074373214,
+    "stop" : 1555074573115,
+    "duration" : 199901
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9545e3103c57b38d",
+  "name" : "Тест №002 - End to End - От авторизации до завершения заказа",
+  "time" : {
+    "start" : 1555072729550,
+    "stop" : 1555073020317,
+    "duration" : 290767
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d7db969e7eb380c",
+  "name" : "Тест №002 - End to End - От авторизации до завершения заказа",
+  "time" : {
+    "start" : 1555072852553,
+    "stop" : 1555073101692,
+    "duration" : 249139
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7287916e5ad066f",
+  "name" : "Тест №002 - End to End - От авторизации до завершения заказа",
+  "time" : {
+    "start" : 1555072791184,
+    "stop" : 1555072891035,
+    "duration" : 99851
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f34b57dac81582ae",
+  "name" : "Тест №004 - End to End - Проверка работы процентного промокода",
+  "time" : {
+    "start" : 1555072992563,
+    "stop" : 1555073094530,
+    "duration" : 101967
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ec828ea5ec050575",
+  "name" : "Тест №005 - End to End - Проверка корректного списания сейвкоинов",
+  "time" : {
+    "start" : 1555073094533,
+    "stop" : 1555073192787,
+    "duration" : 98254
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "30f3463197737df1",
+  "name" : "Тест №006 - End to End - Корректное начисление сейвкоинов",
+  "time" : {
+    "start" : 1555073882157,
+    "stop" : 1555073952810,
+    "duration" : 70653
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "bef94f7857bea4d",
+  "name" : "Тест №005 - End to End - Проверка корректного списания сейвкоинов",
+  "time" : {
+    "start" : 1555073662727,
+    "stop" : 1555073874079,
+    "duration" : 211352
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "808ab5a59331990c",
+  "name" : "Тест №004 - End to End - Проверка работы процентного промокода",
+  "time" : {
+    "start" : 1555073384727,
+    "stop" : 1555073662724,
+    "duration" : 277997
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e37af6d8e178f7a4",
+  "name" : "Тест №003 - End to End - Проверка работы фиксированного промокода",
+  "time" : {
+    "start" : 1555072891039,
+    "stop" : 1555072992560,
+    "duration" : 101521
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f39e92a0328727f4",
+  "name" : "Тест №001 - Проверка текущего количества сейвкоинов клиента",
+  "time" : {
+    "start" : 1555072662355,
+    "stop" : 1555072791089,
+    "duration" : 128734
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "57eb03b783c64ed2",
+  "name" : "Тест №008 - Проверка функционала 'Отменить заказ'",
+  "time" : {
+    "start" : 1555074306961,
+    "stop" : 1555074484438,
+    "duration" : 177477
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "50210a6901f9f46c",
+  "name" : "Тест №003 - End to End - Проверка работы фиксированного промокода",
+  "time" : {
+    "start" : 1555073020320,
+    "stop" : 1555073325673,
+    "duration" : 305353
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5623fc219f714ae0",
+  "name" : "Тест №003 - End to End - Проверка работы фиксированного промокода",
+  "time" : {
+    "start" : 1555073101695,
+    "stop" : 1555073384724,
+    "duration" : 283029
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3b35ea2d2077cce",
+  "name" : "Тест №007 - End to End - Проверка функционала 'Повторить заказ'",
+  "time" : {
+    "start" : 1555073952813,
+    "stop" : 1555074189193,
+    "duration" : 236380
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a1e06d96a7b2e9bb",
+  "name" : "Тест №001 - Проверка текущего количества сейвкоинов клиента",
+  "time" : {
+    "start" : 1555072805171,
+    "stop" : 1555072852450,
+    "duration" : 47279
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3524a43e1ca2136f",
+  "name" : "Тест №009 - Проверка функционала 'Оценка заказа' и перенаправления в Google Play Market",
+  "time" : {
+    "start" : 1555074484441,
+    "stop" : 1555074678848,
+    "duration" : 194407
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "265d61fe4b1531b9",
+  "name" : "Тест №007 - End to End - Проверка функционала 'Повторить заказ'",
+  "time" : {
+    "start" : 1555074076297,
+    "stop" : 1555074306957,
+    "duration" : 230660
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "de0d5f0802e971e5",
+  "name" : "Тест №007 - End to End - Проверка функционала 'Повторить заказ'",
+  "time" : {
+    "start" : 1555073482462,
+    "stop" : 1555073582716,
+    "duration" : 100254
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
